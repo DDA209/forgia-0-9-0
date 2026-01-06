@@ -7,6 +7,11 @@
 		"abi": [
 			{
 				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
 				"name": "boostItem",
 				"outputs": [],
 				"stateMutability": "nonpayable",
@@ -14,6 +19,11 @@
 			},
 			{
 				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_player",
+						"type": "address"
+					},
 					{
 						"internalType": "string",
 						"name": "_name",
@@ -53,6 +63,19 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -83,11 +106,11 @@
 	},
 	"sources": {
 		"forge.sol": {
-			"keccak256": "0x4f98ee587e7f2f375740458c97bf4b22dd2e9c13bb242e2421f186b4e48bae02",
+			"keccak256": "0x119e65731751a33f7a76e9b271f9db46ef60811a399da1c03d33aa40e78c6e1f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b7c8f898186758fddfdafb78f86bc64c14d2d7894c90ef24d3fed3ae28ca66ec",
-				"dweb:/ipfs/QmWmPF1NF1R8JJSvNyHgwcWrCtvxQt9WgwQWydZrjYcXz4"
+				"bzz-raw://62987f263f08ce45ea304656542f3ceddb5f539b536c736f901bd0761b7f1fde",
+				"dweb:/ipfs/QmPVp8mt8eoYnA5jAVQCgUZPPrcopZcr8kWNEUSFWmA3SU"
 			]
 		}
 	},
